@@ -4,7 +4,7 @@ import HomeHero from "../components/PagesComp/home/HomeHero";
 import WhatWeDo from "../components/PagesComp/home/WhatWeDo";
 import HomeTools from "../components/PagesComp/home/HomeTools";
 import HomeFeatures from "../components/PagesComp/home/HomeFeatures";
-import NumerologyServicesGrid from "../components/PagesComp/services/NumerologyServicesGrid";
+import NumerologyServicesGrid from "../components/PagesComp/Services/NumerologyServicesGrid";
 import Testimonials from "../components/common/Testimonials";
 
 const Home = () => {

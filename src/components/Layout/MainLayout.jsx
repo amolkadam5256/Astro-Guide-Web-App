@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import SEO from "../common/SEO";
-import WhatsAppFloating from "../common/WhatsAppFloating";
-import ThemeToggle from "../common/ThemeToggle";
+import SEO from "../Common/SEO";
+import WhatsAppFloating from "../Common/WhatsAppFloating";
+import ThemeToggle from "../Common/ThemeToggle";
 
 const MainLayout = ({ children, title, description, keywords, ogImage }) => {
   return (
