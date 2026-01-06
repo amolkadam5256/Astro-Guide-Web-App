@@ -86,7 +86,7 @@ const HomeHero = () => {
           {/* --- LEFT: Narrative & CTA --- */}
           <div className="text-left space-y-8 max-w-2xl mx-auto lg:mx-0 lg:pr-10">
             {/* Tag / Badge */}
-            <div
+            {/* <div
               data-aos="fade-down"
               className="inline-flex items-center space-x-3 px-4 py-2 bg-white/5 border border-white/10 rounded-full backdrop-blur-xl group hover:bg-white/10 transition-all cursor-default"
             >
@@ -94,7 +94,7 @@ const HomeHero = () => {
               <span className="text-primary font-bold uppercase tracking-[0.4em] text-[10px] sm:text-xs">
                 Ancient Numerology • Modern Insight
               </span>
-            </div>
+            </div> */}
 
             {/* Typography Masterpiece */}
             <div className="space-y-4">
