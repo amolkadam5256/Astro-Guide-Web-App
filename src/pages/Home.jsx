@@ -3,6 +3,7 @@ import MainLayout from "../components/layout/MainLayout";
 import HomeHero from "../components/PagesComp/Home/HomeHero";
 import WhatWeDo from "../components/PagesComp/Home/WhatWeDo";
 import ValueSection from "../components/PagesComp/Home/ValueSection";
+import PopularReports from "../components/PagesComp/Home/PopularReports";
 import HomeTools from "../components/PagesComp/Home/HomeTools";
 import HomeFeatures from "../components/PagesComp/Home/HomeFeatures";
 import NumerologyServicesGrid from "../components/PagesComp/Services/NumerologyServicesGrid";
@@ -18,6 +19,7 @@ const Home = () => {
       <HomeHero />
       <WhatWeDo />
       <ValueSection />
+      <PopularReports />
 
       {/* Featured Services Section */}
       <div className="bg-white dark:bg-[#050a15] pt-24">
