@@ -5,7 +5,7 @@ import WhatWeDo from "../components/PagesComp/Home/WhatWeDo";
 import HomeTools from "../components/PagesComp/Home/HomeTools";
 import HomeFeatures from "../components/PagesComp/Home/HomeFeatures";
 import NumerologyServicesGrid from "../components/PagesComp/Services/NumerologyServicesGrid";
-import Testimonials from "../components/common/Testimonials";
+import Testimonials from "../components/Common/Testimonials";
 
 const Home = () => {
   return (
