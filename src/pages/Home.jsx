@@ -1,9 +1,9 @@
 import React from "react";
 import MainLayout from "../components/layout/MainLayout";
-import HomeHero from "../components/PagesComp/home/HomeHero";
-import WhatWeDo from "../components/PagesComp/home/WhatWeDo";
-import HomeTools from "../components/PagesComp/home/HomeTools";
-import HomeFeatures from "../components/PagesComp/home/HomeFeatures";
+import HomeHero from "../components/PagesComp/Home/HomeHero";
+import WhatWeDo from "../components/PagesComp/Home/WhatWeDo";
+import HomeTools from "../components/PagesComp/Home/HomeTools";
+import HomeFeatures from "../components/PagesComp/Home/HomeFeatures";
 import NumerologyServicesGrid from "../components/PagesComp/Services/NumerologyServicesGrid";
 import Testimonials from "../components/common/Testimonials";
 
