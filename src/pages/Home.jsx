@@ -6,6 +6,7 @@ import ValueSection from "../components/PagesComp/Home/ValueSection";
 import PopularReports from "../components/PagesComp/Home/PopularReports";
 import HomeTools from "../components/PagesComp/Home/HomeTools";
 import HomeFeatures from "../components/PagesComp/Home/HomeFeatures";
+import ConsultationSection from "../components/PagesComp/Home/ConsultationSection";
 import NumerologyServicesGrid from "../components/PagesComp/Services/NumerologyServicesGrid";
 import Testimonials from "../components/Common/Testimonials";
 
@@ -45,6 +46,7 @@ const Home = () => {
       <HomeTools />
 
       <HomeFeatures />
+      <ConsultationSection />
       <Testimonials />
     </MainLayout>
   );
