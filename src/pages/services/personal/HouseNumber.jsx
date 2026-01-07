@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import HouseNumberHero from "../../../components/PagesComp/services/personal/house-number/HouseNumberHero";
+import HouseNumberContent from "../../../components/PagesComp/services/personal/house-number/HouseNumberContent";
+import HouseNumberDeliverables from "../../../components/PagesComp/services/personal/house-number/HouseNumberDeliverables";
+import HouseNumberExamples from "../../../components/PagesComp/services/personal/house-number/HouseNumberExamples";
+import HouseNumberWhoItsFor from "../../../components/PagesComp/services/personal/house-number/HouseNumberWhoItsFor";
+import HouseNumberCTA from "../../../components/PagesComp/services/personal/house-number/HouseNumberCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const HouseNumber = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              House/Address Number
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Ensure your home address supports your goals and wellbeing
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="House & Address Numerology | Domestic Harmony Audit | Astroworlds"
+      description="Does your home address support your success? Our domestic prosperity audit analyzes your house number's frequency to ensure health, wealth, and family harmony."
+      keywords="House Numerology, Address Analysis, Home Energy, Vastu Numerology, Domestic Harmony"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <HouseNumberHero />
+        <HouseNumberContent />
+        <HouseNumberDeliverables />
+        <HouseNumberExamples />
+        <HouseNumberWhoItsFor />
+        <HouseNumberCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

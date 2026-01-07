@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import YearForecastHero from "../../../components/PagesComp/services/personal/year-forecast/YearForecastHero";
+import YearForecastContent from "../../../components/PagesComp/services/personal/year-forecast/YearForecastContent";
+import YearForecastDeliverables from "../../../components/PagesComp/services/personal/year-forecast/YearForecastDeliverables";
+import YearForecastExamples from "../../../components/PagesComp/services/personal/year-forecast/YearForecastExamples";
+import YearForecastWhoItsFor from "../../../components/PagesComp/services/personal/year-forecast/YearForecastWhoItsFor";
+import YearForecastCTA from "../../../components/PagesComp/services/personal/year-forecast/YearForecastCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const YearForecast = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Personal Year Forecast
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Get insights into what the current year holds for you
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Annual Personal Forecast 2025 | Timing Optimization | Astroworlds"
+      description="Stop guessing and start planning. Our 12-month personal numerology forecast identifies your power periods and 'wait-and-watch' cycles for the year ahead."
+      keywords="Yearly Forecast, Personal Year Number, 2025 Numerology, Timing Strategy, Luck Audit"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <YearForecastHero />
+        <YearForecastContent />
+        <YearForecastDeliverables />
+        <YearForecastExamples />
+        <YearForecastWhoItsFor />
+        <YearForecastCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

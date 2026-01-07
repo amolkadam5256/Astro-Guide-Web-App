@@ -41,7 +41,7 @@ const HomeFeatures = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="max-w-2xl space-y-4">
             <h4 className="text-primary font-black uppercase tracking-[0.4em] text-[10px] sm:text-xs">
-              Why AstroGuide
+              Why Astroworlds
             </h4>
             <h2 className="text-3xl md:text-5xl font-black text-dark dark:text-white uppercase tracking-tighter leading-none">
               The Science of <span className="text-primary">Celestial</span>{" "}

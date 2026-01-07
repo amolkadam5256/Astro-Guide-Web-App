@@ -2,30 +2,29 @@ import React from "react";
 import { TrendingUp, Briefcase } from "lucide-react";
 
 const FeatureItem = ({ title, desc }) => (
-  <div className="p-4 bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5 rounded-xl">
-    <h4 className="text-[11px] font-black uppercase text-primary mb-1">
+  <div className="p-4 bg-white dark:bg-white/5 border border-gray-100 dark:border-white/5">
+    <h4 className="text-[10px] font-black uppercase text-primary mb-1">
       {title}
     </h4>
-    <p className="text-[10px] text-gray-500 font-medium leading-tight">
-      {desc}
-    </p>
+    <p className="text-[9px] text-gray-500 font-medium leading-tight">{desc}</p>
   </div>
 );
 
 const BusinessNameHero = () => {
   return (
-    <section className="py-20 bg-white dark:bg-[#050a15] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden py-24 px-4 bg-white dark:bg-[#050a15]">
+      <div className="max-w-7xl mx-auto px-4 relative z-10 font-sans">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="w-full lg:w-1/2" data-aos="fade-right">
             <div className="flex items-center space-x-2 text-primary mb-6">
               <TrendingUp size={18} />
-              <span className="text-[10px] font-black uppercase tracking-[0.4em]">
+              <span className="text-[9px] font-black uppercase tracking-[0.4em]">
                 Accelerate Your Growth
               </span>
             </div>
-            <h1 className="text-3xl md:text-5xl font-black text-dark dark:text-white uppercase mb-8 leading-tight">
-              Business <span className="text-primary">Numerology</span>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-dark dark:text-white uppercase mb-8 leading-none tracking-tighter">
+              Business <br />
+              <span className="text-primary italic opacity-90">Numerology</span>
             </h1>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-8 leading-relaxed font-medium">
               In the marketplace, vibration is synonymous with resonance. A
@@ -55,14 +54,14 @@ const BusinessNameHero = () => {
           </div>
 
           <div className="w-full lg:w-1/2" data-aos="zoom-in">
-            <div className="relative p-12 bg-gray-900 border border-white/5 rounded-[50px] overflow-hidden">
+            <div className="relative p-10 md:p-14 bg-gray-900 border border-white/5 rounded-sm overflow-hidden shadow-2xl">
               <div className="absolute top-0 right-0 w-64 h-64 bg-primary rounded-full blur-[120px] opacity-10"></div>
               <div className="relative z-10 space-y-8">
-                <div className="flex justify-between items-center text-white/40 text-[10px] uppercase font-black tracking-widest">
+                <div className="flex justify-between items-center text-white/40 text-[9px] uppercase font-black tracking-widest">
                   <span>Analysis Node</span>
                   <span>Active</span>
                 </div>
-                <div className="flex items-center justify-center h-48 sm:h-64 border-2 border-dashed border-white/10 rounded-3xl group">
+                <div className="flex items-center justify-center h-48 sm:h-64 border-2 border-dashed border-white/10 rounded-sm group">
                   <Briefcase
                     size={80}
                     className="text-primary group-hover:scale-110 transition-transform opacity-40"
@@ -70,8 +69,8 @@ const BusinessNameHero = () => {
                 </div>
                 <div className="grid grid-cols-3 gap-2">
                   {[1, 2, 3].map((i) => (
-                    <div key={i} className="h-1 bg-white/10 rounded-full">
-                      <div className="h-full bg-[var(--color-secondary)] w-2/3"></div>
+                    <div key={i} className="h-0.5 bg-white/10 rounded-full">
+                      <div className="h-full bg-primary w-2/3"></div>
                     </div>
                   ))}
                 </div>

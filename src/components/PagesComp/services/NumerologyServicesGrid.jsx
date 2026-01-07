@@ -60,7 +60,7 @@ const NumerologyServicesGrid = () => {
           <div
             key={idx}
             data-aos="fade-up"
-            data-aos-delay={idx * 100}
+            data-aos-delay={idx * 50}
             className="group p-8 border border-gray-100 dark:border-white/5 hover:border-primary dark:hover:border-primary transition-all bg-gray-50/50 dark:bg-dark relative overflow-hidden flex flex-col"
           >
             {/* Background Icon Decoration */}
@@ -82,10 +82,10 @@ const NumerologyServicesGrid = () => {
 
             <div className="space-y-4">
               <Link
-                to="/services"
+                to={section.link}
                 className="flex items-center text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-dark dark:text-white group hover:text-primary transition-colors"
               >
-                View All Services{" "}
+                Learn More{" "}
                 <ArrowRight className="ml-3 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
 

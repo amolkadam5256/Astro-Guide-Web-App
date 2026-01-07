@@ -18,48 +18,42 @@ const PopularReports = () => {
       title: "Full Name Numerology Report",
       icon: FileText,
       covers: "In-depth name vibration analysis & correction suggestions.",
-      pages: "12-15 Pages",
       color: "blue",
     },
     {
       title: "Life Path & Destiny Report",
       icon: Sparkles,
       covers: "Life purpose, hidden talents & major destiny cycles.",
-      pages: "10-12 Pages",
       color: "purple",
     },
     {
       title: "Personal Year Forecast (12 Months)",
       icon: Calendar,
       covers: "Month-by-month guidance for the next 12 months.",
-      pages: "15+ Pages",
       color: "amber",
     },
     {
       title: "Business Name Numerology Audit",
       icon: Building2,
       covers: "Brand resonance, success vibration & naming strategy.",
-      pages: "8-10 Pages",
       color: "emerald",
     },
     {
       title: "Mobile Number Optimization Report",
       icon: Smartphone,
       covers: "Impact of your mobile number on business & personal life.",
-      pages: "5-8 Pages",
       color: "indigo",
     },
     {
       title: "House / Property Numerology Report",
       icon: Home,
       covers: "Energetics of your living space & its influence on residents.",
-      pages: "8-12 Pages",
       color: "rose",
     },
   ];
 
   return (
-    <section className="py-24 bg-gray-50/50 dark:bg-[#040811] relative overflow-hidden">
+    <section className="py-10 bg-gray-50/50 dark:bg-[#040811] relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] -mr-64 -mt-64 pointer-events-none"></div>
 
@@ -77,7 +71,7 @@ const PopularReports = () => {
               data-aos-delay="100"
               className="text-3xl md:text-5xl font-black text-dark dark:text-white uppercase tracking-tighter leading-none"
             >
-              Instant <span className="text-primary">PDF</span> Reports
+              <span className="text-primary">PDF</span> Reports
             </h2>
             <p
               data-aos="fade-right"
@@ -89,11 +83,11 @@ const PopularReports = () => {
             </p>
           </div>
           <Link
-            to="/reports"
+            to="/services"
             data-aos="fade-left"
             className="flex items-center text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-dark dark:text-white group hover:text-primary transition-colors"
           >
-            Explore All Reports{" "}
+            Explore All Services{" "}
             <ArrowRight className="ml-3 w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
@@ -124,36 +118,15 @@ const PopularReports = () => {
                     {report.covers}
                   </p>
                 </div>
-                <div className="flex items-center gap-6 pt-4 border-t border-gray-50 dark:border-white/5">
-                  <div className="flex items-center gap-2">
-                    <FileText className="w-4 h-4 text-gray-400" />
-                    <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider">
-                      {report.pages}
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <FileDown className="w-4 h-4 text-gray-400" />
-                    <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider">
-                      Instant PDF
-                    </span>
-                  </div>
-                </div>
+                <div className="flex items-center gap-6 pt-4 border-t border-gray-50 dark:border-white/5"></div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <button className="py-4 text-[10px] uppercase font-black tracking-[0.2em] border border-dark/10 dark:border-white/10 text-dark dark:text-white hover:bg-dark hover:text-white dark:hover:bg-white dark:hover:text-dark transition-all">
-                  View Sample
-                </button>
-                <Link
-                  to="/contact"
-                  className="py-4 text-[10px] text-center uppercase font-black tracking-[0.2em] bg-primary text-white hover:bg-dark dark:hover:bg-white dark:hover:text-dark transition-all"
-                >
-                  Buy Report
-                </Link>
-              </div>
-
-              {/* Decorative accent */}
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-primary group-hover:w-full transition-all duration-700"></div>
+              <Link
+                to="/contact"
+                className="py-4 text-[10px] text-center uppercase font-black tracking-[0.2em] bg-primary text-white hover:bg-dark dark:hover:bg-white dark:hover:text-dark transition-all"
+              >
+                Buy Now
+              </Link>
             </div>
           ))}
         </div>

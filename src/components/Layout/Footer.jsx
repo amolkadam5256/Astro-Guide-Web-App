@@ -42,7 +42,7 @@ const Footer = () => {
       ],
     },
     {
-      title: "Property & More",
+      title: "Property Services",
       links: [
         { name: "Commercial Property", path: "/services/property/commercial" },
         {
@@ -50,8 +50,6 @@ const Footer = () => {
           path: "/services/property/residential",
         },
         { name: "Opening Dates", path: "/services/property/opening-dates" },
-        { name: "Mobile Number Audit", path: "/tools/mobile-number-audit" },
-        { name: "Business Name Audit", path: "/tools/business-name-audit" },
       ],
     },
   ];

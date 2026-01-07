@@ -63,7 +63,7 @@ const Testimonials = () => {
   }, [isAutoPlaying, nextSlide]);
 
   return (
-    <section className="relative py-24 overflow-hidden bg-white dark:bg-[#050a15]">
+    <section className="relative py-20 overflow-hidden bg-white dark:bg-[#050a15]">
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>

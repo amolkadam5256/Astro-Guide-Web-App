@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import BusinessHero from "../../../components/PagesComp/services/business/main/BusinessHero";
+import BusinessContent from "../../../components/PagesComp/services/business/main/BusinessContent";
+import BusinessDeliverables from "../../../components/PagesComp/services/business/main/BusinessDeliverables";
+import BusinessExamples from "../../../components/PagesComp/services/business/main/BusinessExamples";
+import BusinessWhoItsFor from "../../../components/PagesComp/services/business/main/BusinessWhoItsFor";
+import BusinessCTA from "../../../components/PagesComp/services/business/main/BusinessCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const Business = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Business Numerology Services
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Transform your business with strategic numerology solutions
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Strategic Business Numerology | Corporate Growth | Astroworlds"
+      description="Leverage the power of numbers to build a brand that resonates with success and market authority. Scientific analysis for startups and corporations."
+      keywords="Business Numerology, Brand Naming, Corporate Timing, Team Alignment, Startup Numerology, Market Synergy"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <BusinessHero />
+        <BusinessContent />
+        <BusinessDeliverables />
+        <BusinessExamples />
+        <BusinessWhoItsFor />
+        <BusinessCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

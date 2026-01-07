@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import CompanyNamingHero from "../../../components/PagesComp/services/business/company-naming/CompanyNamingHero";
+import CompanyNamingContent from "../../../components/PagesComp/services/business/company-naming/CompanyNamingContent";
+import CompanyNamingDeliverables from "../../../components/PagesComp/services/business/company-naming/CompanyNamingDeliverables";
+import CompanyNamingExamples from "../../../components/PagesComp/services/business/company-naming/CompanyNamingExamples";
+import CompanyNamingWhoItsFor from "../../../components/PagesComp/services/business/company-naming/CompanyNamingWhoItsFor";
+import CompanyNamingCTA from "../../../components/PagesComp/services/business/company-naming/CompanyNamingCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const CompanyNaming = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Company Naming
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Choose the perfect name for your company's success
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Company Naming & Brand Numerology | Corporate Brand Audit | Astroworlds"
+      description="Engineer your brand for market dominance. Our scientific company naming analysis ensures your brand resonates with your sector and founder destinies."
+      keywords="Company Naming, Brand Numerology, Corporate Identity, Business Name Analysis, Scientific Branding"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <CompanyNamingHero />
+        <CompanyNamingContent />
+        <CompanyNamingDeliverables />
+        <CompanyNamingExamples />
+        <CompanyNamingWhoItsFor />
+        <CompanyNamingCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

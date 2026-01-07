@@ -104,8 +104,8 @@ const HomeHero = () => {
                 className="flex items-center space-x-4 opacity-70"
               >
                 <div className="w-12 h-px bg-white/30 hidden sm:block"></div>
-                <h4 className="text-white/80 font-bold text-sm sm:text-base tracking-[0.3em] uppercase">
-                  Decode Your Life Numbers
+                <h4 className="text-white/80 font-semibold text-xs sm:text-xs tracking-[0.3em] uppercase">
+                  Trusted by 10,000+ People Worldwide
                 </h4>
               </div>
 
@@ -114,16 +114,16 @@ const HomeHero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Discover Your
+                Unlock Your True Potential with
                 <br />
                 <span className="relative inline-block overflow-hidden lg:overflow-visible group pb-2">
                   <span className="relative z-10 text-transparent bg-clip-text bg-linear-to-r from-white via-white/90 to-[var(--color-primary)]/70 drop-shadow-sm transition-transform duration-500 inline-block ">
-                    Numerology Destiny
+                    Numerology Insights
                   </span>
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-primary rounded-full scale-x-50 origin-left group-hover:scale-x-100 transition-transform duration-700"></div>
                 </span>
                 <br />
-                Today
+                That Transform Lives
               </h1>
             </div>
 
@@ -132,13 +132,14 @@ const HomeHero = () => {
               data-aos-delay="300"
               className="text-gray-400 text-base sm:text-sm md:text-lg max-w-xl leading-relaxed font-medium"
             >
-              Step into the science of numbers where ancient numerology reveals
-              your life path, soul purpose, and hidden strengths.
+              Join thousands who've discovered their life's blueprint through
+              the ancient science of numerology.
               <span className="text-white/90 font-bold">
                 {" "}
-                Precise. Personal. Powerful.
+                Get personalized readings that reveal your strengths,
+                opportunities, and the path to your success.
               </span>
-              Your journey to clarity and success begins here.
+              Start your transformation today-your destiny awaits.
             </p>
 
             {/* Buttons with Hover Interaction */}
@@ -158,9 +159,12 @@ const HomeHero = () => {
                 <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:translate-x-full transition-transform duration-700 skew-x-12"></div>
               </Link>
 
-              <button className="px-10 py-5 border-2 border-white/10 text-white font-black uppercase tracking-[0.2em] text-[11px] sm:text-xs hover:bg-white hover:text-[#050a15] hover:border-white transition-all active:scale-95 flex items-center justify-center">
+              <Link
+                to="/services"
+                className="px-10 py-5 border-2 border-white/10 text-white font-black uppercase tracking-[0.2em] text-[11px] sm:text-xs hover:bg-white hover:text-[#050a15] hover:border-white transition-all active:scale-95 flex items-center justify-center"
+              >
                 Explore Services
-              </button>
+              </Link>
             </div>
           </div>
 

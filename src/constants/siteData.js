@@ -1,13 +1,13 @@
 export const SITE_DATA = {
   brand: {
     name: "Astro",
-    highlight: "Guide",
-    fullName: "AstroGuide",
+    highlight: "Worlds",
+    fullName: "Astroworlds",
     tagline: "Empowering your journey through celestial wisdom.",
   },
   contact: {
-    email: "contact@astroguide.com",
-    phone: "+91 9876543210",
+    email: "consult@astroworlds.in",
+    phone: "+91 9975048884",
     address: "Office no. 113, 1st Floor, Undri City Center, Pune 411060",
     supportLabel: "Call Support",
     emailLabel: "Email Us",
@@ -15,39 +15,38 @@ export const SITE_DATA = {
   socials: [
     {
       name: "Facebook",
-      url: "https://facebook.com/numerologyguide",
-      handle: "numerologyguide",
+      url: "https://facebook.com/astroworlds",
+      handle: "astroworlds",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/numerologyguide",
-      handle: "@numerologyguide",
+      url: "https://twitter.com/astroworlds",
+      handle: "@astroworlds",
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/numerologyguide",
-      handle: "@numerologyguide",
+      url: "https://instagram.com/astroworlds",
+      handle: "@astroworlds",
     },
     {
       name: "Youtube",
-      url: "https://youtube.com/@numerologyguide",
-      handle: "Numerology Guide",
+      url: "https://youtube.com/@astroworlds",
+      handle: "Astroworlds",
     },
   ],
   footer: {
-    copyrightText: "AstroGuide Cosmic Portal. All Celestial rights reserved.",
+    copyrightText: "Astroworlds Cosmic Portal. All Celestial rights reserved.",
   },
   seo: {
-    defaultTitle:
-      "Numerology Guide | Life Path, Name & Destiny Number Calculator",
-    titleTemplate: "%s | Numerology Guide",
+    defaultTitle: "Astroworlds | Life Path, Name & Destiny Number Calculator",
+    titleTemplate: "%s | Astroworlds",
     defaultDescription:
-      "Numerology Guide offers accurate numerology readings based on date of birth and name. Discover your Life Path Number, Destiny Number, lucky numbers, career, love, and business guidance.",
+      "Astroworlds offers accurate numerology readings based on date of birth and name. Discover your Life Path Number, Destiny Number, lucky numbers, career, love, and business guidance.",
     defaultKeywords:
       "Numerology, Numerology Calculator, Life Path Number, Name Numerology, Destiny Number, Birth Date Numerology, Lucky Numbers, Numerologist India",
-    siteUrl: "https://www.numerologyguide.com/",
-    author: "Numerology Guide",
+    siteUrl: "https://astroworlds.in/",
+    author: "Astroworlds",
     ogImage: "/numerology-og.jpg",
-    twitterHandle: "@numerologyguide",
+    twitterHandle: "@astroworlds",
   },
 };

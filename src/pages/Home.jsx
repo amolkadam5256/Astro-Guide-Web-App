@@ -23,7 +23,7 @@ const Home = () => {
       <PopularReports />
 
       {/* Featured Services Section */}
-      <div className="bg-white dark:bg-[#050a15] pt-24">
+      <div className="bg-white dark:bg-[#050a15] pt-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <h4 className="text-primary font-black uppercase tracking-[0.4em] text-[10px] sm:text-xs">

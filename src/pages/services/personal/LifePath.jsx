@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import LifePathHero from "../../../components/PagesComp/services/personal/life-path/LifePathHero";
+import LifePathContent from "../../../components/PagesComp/services/personal/life-path/LifePathContent";
+import LifePathDeliverables from "../../../components/PagesComp/services/personal/life-path/LifePathDeliverables";
+import LifePathExamples from "../../../components/PagesComp/services/personal/life-path/LifePathExamples";
+import LifePathWhoItsFor from "../../../components/PagesComp/services/personal/life-path/LifePathWhoItsFor";
+import LifePathCTA from "../../../components/PagesComp/services/personal/life-path/LifePathCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const LifePath = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Life Path Analysis
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Understand your life's purpose and destiny through your birth date
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Life Path Masterplan | Soul Journey Decoding | Astroworlds"
+      description="Discover the energetic architecture of your soul's purpose. Our deep-dive Life Path analysis reveals your innate talents and karmic roadmap."
+      keywords="Life Path Number, Soul Purpose, Numerology Reading, Life Journey, Identity Audit"
+    >
+      <div className="bg-white dark:bg-[#050a15] overflow-hidden">
+        <LifePathHero />
+        <LifePathContent />
+        <LifePathDeliverables />
+        <LifePathExamples />
+        <LifePathWhoItsFor />
+        <LifePathCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

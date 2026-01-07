@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import NameAnalysisHero from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisHero";
+import NameAnalysisContent from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisContent";
+import NameAnalysisDeliverables from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisDeliverables";
+import NameAnalysisExamples from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisExamples";
+import NameAnalysisWhoItsFor from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisWhoItsFor";
+import NameAnalysisCTA from "../../../components/PagesComp/services/personal/name-analysis/NameAnalysisCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const NameAnalysis = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Name Analysis
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Discover the hidden meanings and vibrations in your name
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Name Analysis & Correction | Scientific Numerology | Astroworlds"
+      description="Unlock the vibrational power of your name. Our scientific analysis helps you align your name with your birth destiny for maximum success."
+      keywords="Name Analysis, Name Correction, Scientific Numerology, Lucky Name Change, Business Name Vibration"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <NameAnalysisHero />
+        <NameAnalysisContent />
+        <NameAnalysisDeliverables />
+        <NameAnalysisExamples />
+        <NameAnalysisWhoItsFor />
+        <NameAnalysisCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import OpeningDatesHero from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesHero";
+import OpeningDatesContent from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesContent";
+import OpeningDatesDeliverables from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesDeliverables";
+import OpeningDatesExamples from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesExamples";
+import OpeningDatesWhoItsFor from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesWhoItsFor";
+import OpeningDatesCTA from "../../../components/PagesComp/services/property/opening-dates/OpeningDatesCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const OpeningDates = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Opening Dates
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Choose auspicious dates for property openings
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Property Opening Dates | Griha Pravesh & Showroom Muhurta | Astroworlds"
+      description="Calculate highly auspicious dates and times for starting your new home journey or business showroom. Ensure success from the very first step."
+      keywords="Opening Dates, Muhurta Numerology, Griha Pravesh Dates, Showroom Launch Timing, Property Inauguration"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <OpeningDatesHero />
+        <OpeningDatesContent />
+        <OpeningDatesDeliverables />
+        <OpeningDatesExamples />
+        <OpeningDatesWhoItsFor />
+        <OpeningDatesCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

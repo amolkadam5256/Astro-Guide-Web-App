@@ -20,42 +20,42 @@ const HomeTools = () => {
       title: "Name Numerology Calculator",
       desc: "Chaldean & Pythagorean systems for name vibration analysis.",
       icon: Calculator,
-      link: "/tools/name-calculator",
+      link: "/services/personal/name-analysis",
       color: "from-blue-500/20 to-indigo-500/20",
     },
     {
       title: "Life Path & Destiny Calculator",
       desc: "Discover your core purpose and destiny based on your birth date.",
       icon: Compass,
-      link: "/tools/life-path-calculator",
+      link: "/services/personal/life-path",
       color: "from-purple-500/20 to-pink-500/20",
     },
     {
       title: "Personal Year Number Calculator",
       desc: "Get insights into your current yearly cycle and key themes.",
       icon: Calendar,
-      link: "/tools/personal-year-calculator",
+      link: "/services/personal/year-forecast",
       color: "from-amber-500/20 to-orange-500/20",
     },
     {
       title: "Mobile / Phone Number Audit",
       desc: "Analyze if your mobile number aligns with your professional success.",
       icon: Smartphone,
-      link: "/tools/mobile-number-audit",
+      link: "/services/personal/mobile-number",
       color: "from-emerald-500/20 to-teal-500/20",
     },
     {
       title: "House / Address Number Calculator",
       desc: "Ensure your living space supports your overall well-being.",
       icon: Home,
-      link: "/tools/house-number-calculator",
+      link: "/services/personal/house-number",
       color: "from-rose-500/20 to-red-500/20",
     },
     {
       title: "Numerology Snapshot",
       desc: "Download a concise 1-page PDF summary of your key numbers.",
       icon: FileText,
-      link: "/reports/samples",
+      link: "/services",
       color: "from-cyan-500/20 to-sky-500/20",
     },
   ];
@@ -142,11 +142,11 @@ const HomeTools = () => {
 
         <div className="mt-16 text-center">
           <Link
-            to="/tools"
+            to="/services"
             data-aos="fade-up"
             className="inline-block px-10 py-5 bg-dark dark:bg-white text-white dark:text-dark font-black uppercase tracking-[0.2em] text-xs hover:bg-primary dark:hover:bg-primary hover:text-white transition-all active:scale-95"
           >
-            Explore All Tools
+            Explore All Services
           </Link>
         </div>
       </div>

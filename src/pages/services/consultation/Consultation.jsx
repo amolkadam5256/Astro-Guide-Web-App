@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import ConsultationHero from "../../../components/PagesComp/services/consultation/main/ConsultationHero";
+import ConsultationContent from "../../../components/PagesComp/services/consultation/main/ConsultationContent";
+import ConsultationDeliverables from "../../../components/PagesComp/services/consultation/main/ConsultationDeliverables";
+import ConsultationExamples from "../../../components/PagesComp/services/consultation/main/ConsultationExamples";
+import ConsultationWhoItsFor from "../../../components/PagesComp/services/consultation/main/ConsultationWhoItsFor";
+import ConsultationCTA from "../../../components/PagesComp/services/consultation/main/ConsultationCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const Consultation = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Consultation Services
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Get personalized guidance from expert numerologists
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Expert Numerology Consultation | One-on-One Advisory | Astroworlds"
+      description="Get direct access to senior numerologists for deep-dive analysis and personalized life strategy. One-on-one sessions for serious seekers."
+      keywords="Numerology Consultation, Expert Advice, Personalized Reading, Life Strategy Session, Private Numerology Session"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <ConsultationHero />
+        <ConsultationContent />
+        <ConsultationDeliverables />
+        <ConsultationExamples />
+        <ConsultationWhoItsFor />
+        <ConsultationCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

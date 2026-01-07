@@ -1,32 +1,28 @@
 ﻿import React from "react";
 import MainLayout from "../../../components/layout/MainLayout";
+import TeamCompatibilityHero from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityHero";
+import TeamCompatibilityContent from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityContent";
+import TeamCompatibilityDeliverables from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityDeliverables";
+import TeamCompatibilityExamples from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityExamples";
+import TeamCompatibilityWhoItsFor from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityWhoItsFor";
+import TeamCompatibilityCTA from "../../../components/PagesComp/services/business/team-compatibility/TeamCompatibilityCTA";
+import Testimonials from "../../../components/Common/Testimonials";
 
 const TeamCompatibility = () => {
   return (
-    <MainLayout>
-      <div className="min-h-screen bg-white dark:bg-gray-900">
-        {/* Hero Section */}
-        <section className="py-20 px-4">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Team Compatibility
-            </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Build harmonious and productive teams
-            </p>
-          </div>
-        </section>
-
-        {/* Content Section */}
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 dark:text-gray-300 text-lg">
-                Content coming soon...
-              </p>
-            </div>
-          </div>
-        </section>
+    <MainLayout
+      title="Team Compatibility & Synergy Audit | Corporate Human Capital | Astroworlds"
+      description="Maximize your team's collective output. Our team compatibility analysis aligns individual soul paths with corporate objectives to reduce friction and boost efficiency."
+      keywords="Team Compatibility, Corporate Synergy, Human Capital Audit, Leadership Alignment, Office Harmony"
+    >
+      <div className="bg-white dark:bg-[#050a15]">
+        <TeamCompatibilityHero />
+        <TeamCompatibilityContent />
+        <TeamCompatibilityDeliverables />
+        <TeamCompatibilityExamples />
+        <TeamCompatibilityWhoItsFor />
+        <TeamCompatibilityCTA />
+        <Testimonials />
       </div>
     </MainLayout>
   );

@@ -28,7 +28,7 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <section className="relative py-24 overflow-hidden bg-white dark:bg-[#080c14]">
+    <section className="relative py-12 overflow-hidden bg-white dark:bg-[#080c14]">
       {/* Background Decorative Element */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-[0.03] dark:opacity-[0.05] pointer-events-none select-none overflow-hidden flex items-center justify-center">
         <span className="text-[40rem] font-black leading-none">123</span>
